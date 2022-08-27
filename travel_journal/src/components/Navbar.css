@@ -1,0 +1,14 @@
+.logo {
+    background-color:#F55A5A;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo>img {
+    margin-right: 5px;
+}
+.logo>small {
+    color:white;
+    font-family: 'Inter';
+}

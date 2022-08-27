@@ -1,0 +1,54 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    box-shadow: 1px 2px 5px  rgba(0,0,0,0.5);
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 23px;
+    max-width: 800px;
+}
+.c_details{
+    padding: 0 20px;
+}
+.c_visited_img {
+    width: 150px;
+    height: 100%;
+    border-radius: 10px;
+}
+.c_location {
+    display: flex;
+}
+.c_location > img {
+ width: 8px;
+ height: 15px;
+}
+.c_location > h4 {
+    margin: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.c_visited_place {
+margin-top: 15px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+}
+
+.c_visited_date {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 12px;
+}
+
+.c_visited_about {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 1.8;
+text-align: justify;
+}
